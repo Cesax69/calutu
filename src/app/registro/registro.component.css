@@ -1,0 +1,10 @@
+.card {
+    background-color: #b3b2b1; /* Azul claro */
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .card-title {
+    color: #0056b3; /* Azul oscuro */
+    font-weight: bold;
+  }

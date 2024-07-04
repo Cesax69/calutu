@@ -1,0 +1,20 @@
+.card {
+    background-color: #817e7e; /* Azul muy claro */
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .card-title {
+    color: #005b96; /* Azul medio */
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #005b96;
+    border-color: #005b96;
+  }
+  
+  .btn-primary:hover {
+    background-color: #003d66;
+    border-color: #003d66;
+  }

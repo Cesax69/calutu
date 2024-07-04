@@ -1,0 +1,26 @@
+<div class="jumbotron jumbotron-fluid mb-5 d-flex align-items-center">
+    <div class="container text-white text-center">
+      <h1 class="display-4 animate__animated animate__fadeInDown">Descubre el Mundo con Calutu</h1>
+      <p class="lead animate__animated animate__fadeInUp">Elige entre nuestros exclusivos paquetes turísticos y vive experiencias inolvidables</p>
+    </div>
+  </div>
+  
+  <div class="container mt-5" id="paquetes">
+    <h2 class="text-center mb-5 animate__animated animate__fadeIn">Nuestros Paquetes Turísticos</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="col animate__animated animate__fadeInUp" *ngFor="let paquete of paquetes; let i = index" [attr.data-aos-delay]="i * 100">
+        <div class="card h-100 shadow-sm">
+          <div class="card-img-overlay d-flex flex-column justify-content-end">
+            <h5 class="card-title text-white">{{paquete.nombre}}</h5>
+          </div>
+          <img [src]="paquete.imagen" class="card-img-top" [alt]="paquete.nombre">
+          <div class="card-body">
+            <p class="card-text">{{paquete.descripcion}}</p>
+          </div>
+          <div class="card-footer bg-transparent border-top-0">
+            <button class="btn btn-outline-primary w-100">Ver detalles</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

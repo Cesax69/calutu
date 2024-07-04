@@ -1,0 +1,15 @@
+.navbar-nav .btn {
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+  }
+  
+  .navbar-nav .btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .navbar-nav .btn-outline-primary:hover {
+    color: #ffffff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
